@@ -46,7 +46,7 @@
             if (isTouchDevice) {
                 canvas.ontouchstart = (e) => {
                     let x = e.touches[0].clientX;
-                    let y = e.toucher[0].clientY;
+                    let y = e.touches[0].clientY;
                     last = [x, y];
                 }
                 canvas.ontouchmove = (e) => {
