@@ -8,6 +8,6 @@
     display: block;
 }
 
-body {
-    touch-action: none;
+html {
+    touch-action: "pan-down";
 }
