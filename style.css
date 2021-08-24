@@ -8,6 +8,6 @@
     display: block;
 }
 
-html {
-    touch-action: "pan-down";
+body {
+    overscroll-behavior-y: contain;
 }
