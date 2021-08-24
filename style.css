@@ -9,5 +9,6 @@
 }
 
 body {
+    backgroundcolor: black;
     overscroll-behavior-y: contain;
 }
