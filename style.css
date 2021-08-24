@@ -6,8 +6,9 @@
 
 #canvas {
     display: block;
+    touch-action: none;
 }
 
 body {
-    touch-action: none;
+/*     touch-action: none; */
 }
